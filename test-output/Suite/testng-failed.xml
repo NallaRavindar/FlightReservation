@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.newtours.Test.Functional_Test">
+        <methods>
+          <include name="test_OneWayFlights"/>
+          <include name="testHomePage02"/>
+          <include name="testHomePage03"/>
+          <include name="test_PassengetDetails"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.newtours.Test.Functional_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
